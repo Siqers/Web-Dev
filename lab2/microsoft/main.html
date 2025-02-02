@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Microsoft</title>
+	<script src="https://kit.fontawesome.com/b04fc8f8bf.js" crossorigin="anonymous"></script>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: Arial, sans-serif;
+		}
+
+		body {
+			background-color: #f4f4f4;
+			color: #000;
+		}
+
+		header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 15px 5%;
+			background: white;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			width: 100%;
+		}
+
+		.header_left,
+		.header_right {
+			display: flex;
+			align-items: center;
+		}
+
+		.header_left div,
+		.header_right div {
+			margin: 0 15px;
+			font-size: 16px;
+			font-weight: 600;
+			cursor: pointer;
+		}
+
+		.header_left i {
+			font-size: 22px;
+			margin-right: 8px;
+			color: #0078D4;
+		}
+
+		.header_right i {
+			margin-left: 8px;
+		}
+
+		.header_left div:hover,
+		.header_right div:hover {
+			text-decoration: underline;
+		}
+
+		.imager {
+			position: relative;
+			width: 100%;
+		}
+
+		.imager img {
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+
+		.imager h1,
+		.imager h2,
+		.mm {
+			position: absolute;
+			left: 10%;
+			color: white;
+		}
+
+		.imager h1 {
+			top: 20%;
+			font-size: 42px;
+		}
+
+		.imager h2 {
+			top: 30%;
+			font-size: 22px;
+			max-width: 50%;
+		}
+
+		.mm {
+			top: 50%;
+			padding: 12px 20px;
+			background-color: #0078D4;
+			border-radius: 4px;
+		}
+
+		.mm a {
+			color: white;
+			font-size: 16px;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		.mm:hover {
+			background-color: #005a9e;
+		}
+
+		.undermain {
+			display: flex;
+			justify-content: space-around;
+			padding: 4% 5%;
+			background-color: white;
+			flex-wrap: nowrap;
+			width: 100%;
+		}
+
+		.item {
+			width: 22%;
+			background: #f9f9f9;
+			padding: 15px;
+			border-radius: 8px;
+			text-align: center;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+
+		.item img {
+			width: 100%;
+			border-radius: 6px;
+		}
+
+		.item h3 {
+			margin: 15px 0;
+			font-size: 22px;
+		}
+
+		.item p {
+			font-size: 15px;
+			color: #555;
+			margin-bottom: 15px;
+		}
+
+		.item a {
+			color: #0078D4;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		.item a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<div class="header_left">
+			<i class="fa-brands fa-microsoft"></i>
+			<div>Microsoft</div>
+			<div>Microsoft 365</div>
+			<div>Office</div>
+			<div>Windows</div>
+			<div>Поддержка</div>
+		</div>
+		<div class="header_right">
+			<div>Продукты Microsoft</div>
+			<div>Поиск <i class="fa-solid fa-magnifying-glass"></i></div>
+			<div>Войти</div>
+		</div>
+	</header>
+
+	<div class="main">
+		<div class="imager">
+			<h1>Microsoft 365</h1>
+			<h2>Следующее поколение игр. Ваши цели. Друзья и семья. <br>
+				С Windows 11 вы станете еще ближе к тому, <br> что успели полюбить.</h2>
+			<div class="mm"><a href="#">Проверьте, готов ли ваш ПК</a></div>
+			<img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP5-1920x600"
+				alt="Windows 11">
+		</div>
+	</div>
+
+	<div class="undermain">
+		<div class="item">
+			<div><img
+					src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-M365-Icon-Bounce-Word-Merch?wid=380&hei=213&fit=crop"
+					alt=""></div>
+			<h3>Microsoft 365</h3>
+			<p>Приложения и функции, которые помогут вам воплотить идеи в реальность, оставаться в безопасности и
+				сосредоточиться на важных вещах в жизни.</p>
+			<a href="#">Подробнее</a>
+		</div>
+		<div class="item">
+			<div><img
+					src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-MSFT-CP-Edge?wid=380&hei=213&fit=crop"
+					alt=""></div>
+			<h3>Microsoft Edge</h3>
+			<p>Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.
+			</p>
+			<a href="#">Скачать</a>
+		</div>
+		<div class="item">
+			<div><img
+					src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Soft-CP-OneDriveCampaignRefresh-2?wid=380&hei=213&fit=crop"
+					alt=""></div>
+			<h3>Microsoft OneDrive</h3>
+			<p>Сохраняйте свои файлы и фотографии на OneDrive — они будут доступны с любого устройства и где угодно.</p>
+			<a href="#">Подробнее</a>
+		</div>
+		<div class="item">
+			<div><img
+					src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-PC-SMB-OneNote?wid=380&hei=213&fit=crop"
+					alt=""></div>
+			<h3>OneNote</h3>
+			<p>Приведите свои заметки и дела в порядок.</p>
+			<a href="#">Узнать больше</a>
+		</div>
+	</div>
+
+</body>
+
+</html>
